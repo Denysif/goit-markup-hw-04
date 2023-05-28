@@ -609,9 +609,12 @@ color: #434455
     padding: 100px 0;
 }
 
-.footer-item {
-    /* display: flex; */
-    flex-direction: column;
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+.footer-begin {
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -659,12 +662,13 @@ color: #434455
 }
 
 .footer-soc-title {
+    margin-bottom: 16px;
    
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--primary-background-color);
 }
 
 .footer-soc-list {
@@ -682,7 +686,7 @@ color: #434455
 .footer-soc-link {
     width: 100%;
     height: 100%;
-    background-color: #4D5AE5;
+    background-color: var(--accent-color);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -699,5 +703,5 @@ color: #434455
 .footer-soc-icon {
     width: 24px;
     height: 24px;
-    fill: #ffffff;
+    fill: var(--team-background-color);
 }
