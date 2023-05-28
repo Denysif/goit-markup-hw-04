@@ -439,7 +439,6 @@ color: #434455
 }
 
 .customers-title {
-    /* display: flex; */
     margin: 0 auto;
     margin-bottom: 72px;
 
@@ -450,7 +449,6 @@ color: #434455
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     color: var(--title-text-color);
 }
 
@@ -481,13 +479,13 @@ color: #434455
 }
 
 .customers-link:hover .customers-icon {
-    color: #404BBF;
+    color: #404bbf;
 }
 .customers-link:focus {
     border-color: #404BBF;
 }
 .customers-link:focus .customers-icon {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 
