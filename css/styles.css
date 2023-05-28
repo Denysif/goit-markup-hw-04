@@ -477,7 +477,6 @@ color: #434455
 .customers-link:hover {
     border-color: #404BBF;
 }
-
 .customers-link:hover .customers-icon {
     color: #404bbf;
 }
@@ -487,11 +486,9 @@ color: #434455
 .customers-link:focus .customers-icon {
     color: #404bbf;
 }
-
-
 .customers-icon {
-    width: 104px;
-    height: 56px;
+    /* width: 104px;
+    height: 56px; */
     fill: currentColor;
 }
 
