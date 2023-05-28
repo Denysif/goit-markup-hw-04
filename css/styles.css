@@ -474,25 +474,20 @@ color: #434455
     justify-content: center;
 }
 
-.customers-link:hover {
-    border-color: #404BBF;
-}
-.customers-link:hover .customers-icon {
-    color: #404bbf;
-}
+.customers-link:hover,
 .customers-link:focus {
     border-color: #404BBF;
 }
-.customers-link:focus .customers-icon {
+.customers-link:hover .customers-icon,
+.cuxtomers-link:focus .customers-icon {
     color: #404bbf;
 }
+
 .customers-icon {
-    /* width: 104px;
-    height: 56px; */
     fill: currentColor;
 }
 
-/* Button */
+/* Examples */
 
 .examples {
     padding-top: 96px;
@@ -504,21 +499,11 @@ color: #434455
     gap: 24px;
     margin-bottom: 72px;
     justify-content: center;
-    
 }
-/* .examples-link {
-    display: block;
-} */
-/* .examples-img {
-    display: inline-block;
-} */
-
 .examples-btn {
 
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
-    
-   
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
