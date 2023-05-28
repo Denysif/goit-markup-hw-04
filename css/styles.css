@@ -478,10 +478,10 @@ color: #434455
 .customers-link:focus {
     border-color: #404BBF;
 }
-.customers-link:hover .customers-icon,
+/* .customers-link:hover .customers-icon,
 .cuxtomers-link:focus .customers-icon {
     color: #404bbf;
-}
+} */
 .customers-icon:hover,
 .customers-icon:focus {
     color: #404BBF;
