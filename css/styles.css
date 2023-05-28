@@ -434,26 +434,26 @@ color: #434455
 /* Customers */
 
 .customers {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
+    /* padding-bottom: 120px; */
+    text-align: center;
 }
 
 .customers-title {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-bottom: 72px;
 
-    width: 183px;
-    height: 40px;
+    /* width: 183px;
+    height: 40px; */
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
+    /* text-align: center; */
+    /* letter-spacing: 0.02em; */
     color: var(--title-text-color);
 }
 
 .customers-list {
-   
     display: flex;
     gap: 24px;
 }
