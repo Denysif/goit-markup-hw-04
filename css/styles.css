@@ -439,7 +439,7 @@ color: #434455
 }
 
 .customers-title {
-    
+    /* display: flex; */
     margin: 0 auto;
     margin-bottom: 72px;
 
@@ -455,7 +455,7 @@ color: #434455
 }
 
 .customers-list {
-    /* margin-top: 72px; */
+   
     display: flex;
     gap: 24px;
 }
