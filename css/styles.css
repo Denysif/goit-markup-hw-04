@@ -482,6 +482,10 @@ color: #434455
 .cuxtomers-link:focus .customers-icon {
     color: #404bbf;
 }
+.customers-icon:hover,
+.customers-icon:focus {
+    color: #404BBF;
+}
 
 .customers-icon {
     fill: currentColor;
