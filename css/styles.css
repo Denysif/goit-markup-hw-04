@@ -644,6 +644,7 @@ color: #434455
 
 .footer-soc-title {
     margin-bottom: 16px;
+    display: flex;
    
     font-weight: 500;
     font-size: 16px;
