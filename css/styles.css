@@ -70,7 +70,7 @@ img {
 /* Header */
 
 .page-header {
-    padding-top: 25px;
+    /* padding-top: 25px; */
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -104,18 +104,7 @@ img {
     text-decoration: none;
 }
 .logo-link-color {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    margin-right: 76px;
-    
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
      color: #2e2f42;
-     text-decoration: none;
 }
 .link {
     text-decoration: none;
@@ -318,7 +307,7 @@ color: #434455
 }
 
 .work {
-    padding-top: 120px;
+    padding-top: 0;
     padding-bottom: 120px;
 }
 
@@ -570,7 +559,7 @@ color: #434455
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
-    /* text-align: center; */
+    
 }
 
 .examples-item {
@@ -581,7 +570,7 @@ color: #434455
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
-    /* text-align: center; */
+    
 }
 
 /* Футер */
@@ -613,26 +602,14 @@ color: #434455
 }
 
 .footer-logo-s {
-    display: inline-block;
-    margin-bottom: 16px;
-
-    font-family: Raleway, sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
     color: #F4F4FD;
-    text-transform: uppercase;
 }
 
 .footer-text {
-    /* padding-top: 16px; */
-    /* padding-bottom: 100px; */
+   
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* letter-spacing: 0.02em */
     color: #F4F4FD;
     width: 264px;
 }
@@ -654,7 +631,6 @@ color: #434455
 }
 
 .footer-soc-list {
-    padding-top: 24px;
     display: flex;
     justify-content: center;
     gap: 16px;
